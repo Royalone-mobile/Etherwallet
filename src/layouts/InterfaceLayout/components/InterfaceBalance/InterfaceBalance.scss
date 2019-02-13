@@ -1,0 +1,30 @@
+@import '../InformationBlock';
+
+.balance {
+  background-color: $transaction-block-balance;
+
+  .balance-text-container {
+    display: inline-block;
+  }
+
+  .balance-text {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+
+    p {
+      font-size: 20px;
+      text-overflow: ellipsis;
+      word-wrap: normal;
+    }
+
+    p:first-child {
+      max-width: 150px;
+    }
+  }
+}
+
+.info-block .block-image {
+  margin-right: 8px;
+  margin-left: -17px;
+}
